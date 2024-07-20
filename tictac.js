@@ -98,8 +98,8 @@ document.removeEventListener('keydown', startGameOnKeyPress)
 // Function to handle cell clicks
 function handleClick(event) {
   if (gameEnded) return; // Prevent further moves if the game has ended
-  const cell = event.target;
-  // Check if the clicked cell is empty
+  const cell = event.target; //gets the cell that was clicked 
+  // Check if the clicked cell is empty before marking it
   if (cell.innerText === '') {
     // If it's Player X's turn
     if (currentPlayer === 'X') {
