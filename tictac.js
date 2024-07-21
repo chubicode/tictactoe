@@ -145,6 +145,13 @@ document.querySelectorAll('td').forEach(cell=>{
 
 }
 
+// Function to reload the page and restart the game
+function restartGame(){
+
+  location.reload()
+
+}
+
 //function to startGame on Keypress
 function startGameOnKeyPress(){
   startGame()
@@ -153,7 +160,8 @@ function startGameOnKeyPress(){
 //EventListener for any keypress to start the game 
 document.addEventListener('keydown', startGameOnKeyPress)
 
-
+//add Eventlistener for restart button to reload page
+document.getElementById('btn-restart').addEventListener('click',restartGame)
 
 
 

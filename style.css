@@ -23,7 +23,7 @@ h1{
 
 table {
   border-collapse: collapse;
-  margin: 10% auto;
+  margin: 5% auto;
   background-color: white;
 }
 td {
@@ -34,4 +34,28 @@ td {
   font-size: 24px;
   border: 5px solid #000;
   cursor: pointer;
+}
+
+#btn-restart{
+  
+  background-color: rgb(192, 42, 42);
+  color: white;
+  padding: 15px 40px;
+  margin:0 auto;
+  display:flex;
+  justify-content: center;
+  font-family:"Toony" ;
+  font-weight:bolder;
+  font-size: 20px;
+  border: 5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+  
+}
+
+#btn-restart:hover{
+  background-color: black;
+  color: white;
 }
